@@ -11,9 +11,9 @@ const SearchModifier = () => {
                     </div>
                     <div className="search-modifier__return d-flex align-items-center flex-row ">
                         <div className="search-modifier-title d-flex flex-column align-items-start p-0">
-                            <span>Return Journey</span>
-                            <span>Chottogram - Dhaka</span>
-                            <span>24 June, 2021 (Thursday)</span>
+                            <span className="search-modifier-title__main-title">Return Journey</span>
+                            <span className="search-modifier-title__middle-title">Chottogram - Dhaka</span>
+                            <span className="search-modifier-title__sub-title">24 June, 2021 (Thursday)</span>
                         </div>
                         <div className="search-modifier-frame">
                             <div className="search-modifier-frame__image">
@@ -28,9 +28,9 @@ const SearchModifier = () => {
                     </div>
                     <div className="search-modifier__onward d-flex align-items-center flex-row ">
                         <div className="search-compare-title d-flex flex-column align-items-start p-0">
-                            <span>Return Journey</span>
-                            <span>Chottogram - Dhaka</span>
-                            <span>24 June, 2021 (Thursday)</span>
+                            <span className="search-compare-title__main-title">Return Journey</span>
+                            <span className="search-compare-title__middle-title">Chottogram - Dhaka</span>
+                            <span className="search-compare-title__sub-title">24 June, 2021 (Thursday)</span>
                         </div>
                         <div className="search-compare-frame">
                             <div className="search-compare-frame__image">
