@@ -1,11 +1,97 @@
 @import 'src/styles/variables';
 
-.header-wrap{
+.search-modifier{
+  background: #3062D0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px;
 
+  &__search-button{
+    flex: none;
+    order: 3;
+    flex-grow: 1;
+    margin: 0 28px;
+    padding: 0;
+
+    button{
+      background: #1882FF;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 3px;
+      padding: 12px 20px;
+    }
+  }
+
+  &__return{
+    opacity: 0.6;
+    border-radius: 6px;
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+    margin: 0 28px;
+    padding: 12px 20px;
+
+    .search-modifier-title{
+      flex: none;
+      order: 2;
+      flex-grow: 1;
+      margin: 0 16px;
+    }
+
+    .search-modifier-frame{
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 0 16px;
+
+      &__image{
+        width: 48px;
+        height: 48px;
+      }
+    }
+  }
+
+  &__compare{
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 0 28px;
+    padding: 16px 16px 12px;
+  }
+
+  &__onward{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 12px 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0 28px;
+
+    .search-compare-title{
+      flex: none;
+      order: 2;
+      flex-grow: 1;
+      margin: 0 16px;
+    }
+
+    .search-compare-frame{
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 0 16px;
+
+      &__image{
+        width: 48px;
+        height: 48px;
+      }
+    }
+  }
 }
 
 .top-nav {
   background-color: $bgc-body;
+  padding: 14px 16px;
 
   font-family: SF Pro Display, serif;
   font-style: normal;
