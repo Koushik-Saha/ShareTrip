@@ -49,3 +49,108 @@
     }
   }
 }
+
+.ticket_list{
+  border: 1px solid #F6F6F6;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.12));
+  border-radius: 6px;
+
+    .lower{
+      flex: none;
+      order: 2;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 0
+    }
+
+    .uppper{
+      .right_side{
+        padding: 16px;
+        width: 283px;
+        height: 176px;
+      }
+
+      .left_side{
+        padding: 16px 24px 32px;
+        background: #FFFFFF;
+        width: 661px;
+        height: 176px;
+
+        .middle_des{
+          &__title{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 129%;
+            text-align: center;
+            color: #EF7E46;
+          }
+
+          &__sub_title{
+            font-size: 12px;
+            line-height: 133%;
+            text-align: center;
+            color: #4C4C4C;
+          }
+
+          &__image{
+            width: 40px;
+            height: 20px;
+          }
+        }
+
+        .destination{
+          &__first{
+            font-size: 12px;
+            line-height: 133%;
+            color: #4C4C4C;
+          }
+
+          &__secound{
+            font-size: 16px;
+            line-height: 150%;
+            text-transform: uppercase;
+            color: #000000;
+          }
+
+          &__third{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 129%;
+            color: #4C4C4C;
+          }
+
+          &__fourth{
+            font-size: 12px;
+            line-height: 133%;
+            color: #4C4C4C;
+          }
+        }
+
+        &__ac{
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 150%;
+          color: #000000;
+
+          &__image{
+            width: 24px;
+            height: 24px;
+          }
+        }
+
+        &__en{
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 133%;
+          color: #000000;
+        }
+
+        &__enlow{
+          font-size: 10px;
+          line-height: 140%;
+          text-align: center;
+          color: #4C4C4C;
+        }
+      }
+    }
+}
