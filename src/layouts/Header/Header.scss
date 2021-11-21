@@ -9,8 +9,8 @@
     flex: none;
     order: 3;
     flex-grow: 1;
-    margin: 0 28px;
     padding: 0;
+    margin: 0 28px;
 
     button{
       background: #1882FF;
@@ -26,8 +26,8 @@
     flex: none;
     order: 2;
     flex-grow: 1;
-    margin: 0 28px;
-    padding: 12px 20px;
+    padding: 12px 0;
+    margin: 0 14px;
 
     .search-modifier-title{
       flex: none;
@@ -72,18 +72,17 @@
     order: 1;
     align-self: stretch;
     flex-grow: 1;
-    margin: 0 28px;
     padding: 16px 16px 12px;
+    margin: 0 185px;
   }
 
   &__onward{
     background: rgba(255, 255, 255, 0.1);
     border-radius: 6px;
-    padding: 12px 20px;
+    padding: 12px 0;
     flex: none;
     order: 0;
     flex-grow: 1;
-    margin: 0 28px;
 
     .search-compare-title{
       flex: none;

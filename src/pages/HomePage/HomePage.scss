@@ -3,3 +3,49 @@
 .homepage-wrap {
   background-color: $bgc-body;
 }
+
+.left_panel{
+  background: #FFFFFF;
+  opacity: 0.2;
+  border: 1px solid #F6F6F6;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+
+  &__rectangle{
+    position: static;
+    width: 297px;
+    height: 1558px;
+    left: 0;
+    top: 0;
+    background: #C4C4C4;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 0;
+  }
+}
+
+.right_panel{
+  margin-left: 2%;
+
+  .tab_bar{
+    margin-top: 2%;
+    background: #FFFFFF;
+    border: 1px solid #F6F6F6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    width: 944px;
+    height: 50px;
+
+    &__image{
+      width: 32px;
+      height: 32px;
+    }
+
+    &__title{
+      color: #000000;;
+    }
+  }
+}
