@@ -2,14 +2,18 @@ import React from 'react'
 import './Header.scss'
 import TopNavbar from "./components/TopNavbar";
 import SearchModifier from "./components/SearchModifier";
+import PageHead from "../PageHead";
 
 
 const Header = () => {
     return (
-        <div className="header-wrap">
-            <TopNavbar/>
-            <SearchModifier/>
-        </div>
+        <>
+            <PageHead title={`HomePage | ShareTrip`} />
+            <div className="header-wrap">
+                <TopNavbar/>
+                <SearchModifier/>
+            </div>
+        </>
     )
 }
 
