@@ -30,6 +30,39 @@
 .right_panel{
   margin-left: 2%;
 
+  .short_by_operator{
+    width: 944px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #F6F6F6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+
+    &__image{
+      width: 44px;
+      height: 44px;
+      border-right: 1px solid #E5E5E9;
+    }
+
+    .short_tab_bar{
+      padding: 6px 8px;
+      border-right: 1px solid #E5E5E9;
+
+      &__title{
+        font-size: 14px;
+        line-height: 143%;
+        color: #000000;
+      }
+
+      &__sub_title{
+        font-size: 10px;
+        line-height: 120%;
+        color: #000000;
+      }
+
+    }
+  }
+
   .tab_bar{
     margin-top: 2%;
     background: #FFFFFF;

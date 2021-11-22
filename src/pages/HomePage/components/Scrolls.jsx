@@ -12,6 +12,38 @@ const Scrolls = () => {
                 </div>
                <div className="right_panel">
                    <span>48 Available Buses</span>
+                   <div className="short_by_operator mt-4 d-flex flex-row">
+                       <div className="short_by_operator__image">
+                           <img src="/assets/back.png" alt="spin" className="img-fluid"/>
+                       </div>
+                       <div className="d-flex flex-column align-items-start short_tab_bar bar">
+                            <span className="short_tab_bar__title">Hanif Enterprize</span>
+                            <span className="short_tab_bar__sub_title">40 Buses</span>
+                       </div>
+                       <div className="d-flex flex-column align-items-start short_tab_bar">
+                           <span className="short_tab_bar__title">Shohagh Paribahan</span>
+                           <span className="short_tab_bar__sub_title">40 Buses</span>
+                       </div>
+                       <div className="d-flex flex-column align-items-start short_tab_bar">
+                           <span className="short_tab_bar__title">Ena Transport (Pvt) Ltd</span>
+                           <span className="short_tab_bar__sub_title">40 Buses</span>
+                       </div>
+                       <div className="d-flex flex-column align-items-start short_tab_bar">
+                           <span className="short_tab_bar__title">Saintmartin Travels</span>
+                           <span className="short_tab_bar__sub_title">40 Buses</span>
+                       </div>
+                       <div className="d-flex flex-column align-items-start short_tab_bar">
+                           <span className="short_tab_bar__title">Soudia Coach Service</span>
+                           <span className="short_tab_bar__sub_title">40 Buses</span>
+                       </div>
+                       <div className="d-flex flex-column align-items-start short_tab_bar">
+                           <span className="short_tab_bar__title">Saintmartin Hyundai </span>
+                           <span className="short_tab_bar__sub_title">40 Buses</span>
+                       </div>
+                       <div className="short_by_operator__image ms-2">
+                           <img src="/assets/flow.png" alt="spin" className="img-fluid"/>
+                       </div>
+                   </div>
                    <nav className="nav nav-pills flex-column flex-sm-row tab_bar">
                        <a className="flex-sm-fill text-sm-center nav-link" aria-current="page" href="/">
                            <div className="d-flex flex-row align-items-center">
