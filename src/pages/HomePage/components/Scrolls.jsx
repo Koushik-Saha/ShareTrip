@@ -129,10 +129,10 @@ const Scrolls = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="right_side d-flex align-items-end justify-content-end flex-column">
-                                    <span>Per Person</span>
-                                    <h4>BDT 750</h4>
-                                    <h6>BDT 775</h6>
+                                <div className="right_side d-flex align-items-end justify-content-center flex-column">
+                                    <span className="right_side__title">Per Person</span>
+                                    <span className="right_side__value">BDT 750</span>
+                                    <span className="right_side__sub-value">BDT 775</span>
                                     <button type="button" className="btn btn-primary">VIEW SEATS</button>
                                 </div>
                             </div>

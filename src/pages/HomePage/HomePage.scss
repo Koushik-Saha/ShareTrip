@@ -101,6 +101,27 @@
         padding: 16px;
         width: 283px;
         height: 176px;
+
+        &__title{
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 120%;
+          color: #000000;
+        }
+
+        &__value{
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 133%;
+          color: #235FD8;
+        }
+
+        &__sub-value{
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 150%;
+          color: #1882FF;
+        }
       }
 
       .left_side{
